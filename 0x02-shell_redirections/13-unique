@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 's/\(list\)/\n\1/p' | uniq
+sort | uniq -u
